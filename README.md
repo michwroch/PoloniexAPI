@@ -8,7 +8,11 @@ Main clas is Conect/Poloniex
 
 You can use it like this:
 Poloniex pol = new Poloniex(APIKEY, APISECRET);
+
 and for Example:
+
 var Balances = await pol.GetBalances();
+
 var OpenOrders = await pol.GetOpenOrders(new CurrencyPair("ETH"));
+
 etc...
